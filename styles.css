@@ -1,5 +1,5 @@
 * {
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
   font-family: Verdana, sans-serif;
   margin: 0;
   border: 0;
@@ -14,8 +14,8 @@
 }
 
 .header-logo {
-  height: 50px;
-  width: 50px;
+  height: 100px;
+  width: 100px;
 }
 
 .site-nav-bar {
@@ -62,6 +62,7 @@
   display: block;
   object-fit: cover;
 }
+
 .other-photos img {
   height: 50%;
   width: 100%;
@@ -69,6 +70,7 @@
   display: block;
   object-fit: cover;
 }
+
 .shapes-container {
   display: grid;
   padding: 5%;
@@ -153,6 +155,10 @@
   background-color: #1A235D;
 }
 
+.brown {
+  background-color: #937E56;
+}
+
 .dark-brown {
   background-color: #171717;
 }
@@ -160,4 +166,64 @@
 .box {
   width: 5rem;
   height: 5rem;
+}
+
+.previous-projects-section {
+  background-color: #171717;
+  padding: 5%;
+  padding-left: 0%;
+  padding-right: 0%;
+}
+
+.previous-projects-container {
+  display: flex;
+  white-space: nowrap;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.previous-projects-label {
+  padding: 5%;
+  color: #ffffff;
+  text-align: center;
+  font-size: 40px;
+}
+
+.left-shape-section {
+  display: grid;
+  padding: 5%;
+  padding-left: 0%;
+  grid-template-columns: repeat(2, 5rem);
+  grid-template-rows: repeat(5, 5rem);
+}
+
+.right-shape-section {
+  display: grid;
+  padding: 5%;
+  padding-right: 0%;
+  grid-template-columns: repeat(3, 5rem);
+  grid-template-rows: repeat(5, 5rem);
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.projects figure img {
+  width: auto;
+  height: 250px;
+}
+
+.project {
+  text-align: center;
+  padding: 5%;
+}
+
+figcaption {
+  color: #ffffff;
+  margin-top: 5px;
 }
