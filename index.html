@@ -6,40 +6,51 @@
     <link rel="stylesheet" type="text/css" href="styles.css" />
   </head>
   <body>
-    <nav class="red-outline">
-      <img src="assets/images/logo-with-label.png" height="100px" width="100px"/>
-      <h1>Logo and Navigation bar</h1>
-    </nav>
-    <main class="red-outline">
-      <div class="red-outline">
+    <header class="site-header">
+      <nav class="site-nav-bar">
+        <img class="header-logo" src="assets/images/logo-no-label.png" height="100px" width="100px"/>
+        <h1 class="header-text">Logo and Navigation bar</h1>
+      </nav>
+    </header>
+    <main class="site-main">
+      <div class="featured-photo-container">
         <h1>Featured Photo</h1>
-        <div class="red-outline">
+        <div class="featured-photo">
           <img src="https://picsum.photos/200/300" height="100px" width="100px"/>
         </div>
       </div>
-      <div class="red-outline">
+      <div class="previous-projects-container">
         <h1>Previous Projects</h1>
-        <div class="red-outline">
-          <img src="https://picsum.photos/200/300" height="100px" width="100px"/>
-          <img src="https://picsum.photos/200/300" height="100px" width="100px"/>
-          <img src="https://picsum.photos/200/300" height="100px" width="100px"/>
-          <img src="https://picsum.photos/200/300" height="100px" width="100px"/>
+        <div class="projects">
+          <img class="project" src="https://picsum.photos/200/300" height="100px" width="100px"/>
+          <img class="project" src="https://picsum.photos/200/300" height="100px" width="100px"/>
+          <img class="project" src="https://picsum.photos/200/300" height="100px" width="100px"/>
+          <img class="project" src="https://picsum.photos/200/300" height="100px" width="100px"/>
         </div>
       </div>
-      <div class="red-outline" style="display: inline-block; width: 50%">
-        <h2>Skills</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-      </div>
-      <div class="red-outline" style="display: inline-block; width: 50%">
-        <h2>Autobiography</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <div class="skills-and-autobiography">
+        <div class="skills" style="display: inline-block; width: 50%">
+          <h2 class="skills-label">Skills</h2>
+          <div class="skills-content-container">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </div>
+        </div>
+        <div class="autobiography" style="display: inline-block; width: 50%">
+          <h2 class="autobiography-label">Autobiography</h2>
+          <div class="autobiography-content-container">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </div>
+        </div>
       </div>
     </main>
-    <footer class="red-outline">
-      <h1>Footer Contents</h1>
-      <span><img src="assets/images/logo-no-label.png" height="20px" width="20px"/></span> Villa Caceres, Brgy. Dila, City of Santa Rosa, Laguna, 4026, Philippines
-      <p>&copy; 2024 Jan Neal. All rights reserved.</p>
-      <a href="#">Back to Top</a>
+    <footer class="site-footer">
+      <img class="footer-logo" src="assets/images/logo-with-label.png" height="200px" width="200px"/>
+      <div class="footer-contents">
+        <p>Footer Contents</p>
+        <p>Villa Caceres, Brgy. Dila, City of Santa Rosa, Laguna, 4026, Philippines</p>
+        <p>&copy; 2024 Jan Neal. All rights reserved.</p>
+        <a href="#">Back to Top</a>
+      </div>
     </footer>
   </body>
 </html>
