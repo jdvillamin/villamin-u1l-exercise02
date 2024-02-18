@@ -1,3 +1,11 @@
+/*
+Author: Jan Neal Isaac D. Villamin
+Lab section: U1L
+Date created: 2024-02-18
+Document description:
+  The CSS stylesheet for my portfolio website for CMSC 100 exercise 2. This sheet is organized by parts.
+*/
+
 * {
   /* outline: 1px solid red; */
   font-family: "Fira Sans", "Gill Sans", "Lucida Grande", "Roboto", sans-serif;
@@ -6,6 +14,7 @@
   padding: 0;
 }
 
+/* Header styling */
 .site-header {
   background-color: #171717;
   text-align: center;
@@ -33,10 +42,12 @@
   flex: 1;
 }
 
+/* Main styling */
 .site-main {
   background-color: #E5E9FF;
 }
 
+/* Featured photo styling */
 .shapes-container {
   display: flex;
 }
@@ -72,6 +83,7 @@
   object-fit: cover;
 }
 
+/* Shapes styling */
 .shapes-container {
   display: grid;
   padding: 5%;
@@ -169,6 +181,7 @@
   height: 5rem;
 }
 
+/* Previous projects styling */
 .previous-projects-section {
   background-color: #171717;
   padding: 5%;
@@ -240,6 +253,7 @@ figcaption {
   padding-top: 2.5%;
 }
 
+/* Skills and autobiography styling */
 .skills-and-autobiography-section {
   padding-top: 5%;
   padding-bottom: 5%;
@@ -279,13 +293,13 @@ figcaption {
   flex: 1;
 }
 
+/* Random lines styling */
 .lines-1 {
   display: flex;
   height: 10px;
 }
 
 .lines-1 div {
-  /* background-color: #937E56; */
   height: 10px;
   margin-left: 5%;
   margin-right: 5%;
@@ -339,6 +353,7 @@ figcaption {
   margin-right: 0%;
 }
 
+/* Footer styling */
 .site-footer {
   display: flex;
   border-top: 20px solid #937E56;
