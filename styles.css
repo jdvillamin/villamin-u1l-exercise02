@@ -1,0 +1,7 @@
+body {
+  margin: 0;  
+}
+
+.red-outline {
+  outline: 2px solid red;
+}
