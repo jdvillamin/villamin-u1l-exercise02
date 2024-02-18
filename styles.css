@@ -1,5 +1,5 @@
 * {
-  /* outline: 1px solid red;  */
+  /* outline: 1px solid red; */
   font-family: "Fira Sans", "Gill Sans", "Lucida Grande", "Roboto", sans-serif;
   margin: 0;
   border: 0;
@@ -27,7 +27,7 @@
 
 .option {
   color: #ffffff;
-  font-size: 1.0em;
+  font-size: 1.2em;
   font-weight: bold;
   text-align: center;
   flex: 1;
@@ -185,15 +185,14 @@
 }
 
 .previous-projects-label {
-  padding: 5%;
   color: #ffffff;
   text-align: center;
   font-size: 40px;
+  padding: 5%;
 }
 
 .left-shape-section {
   display: grid;
-  padding: 5%;
   padding-left: 0%;
   grid-template-columns: repeat(2, 5rem);
   grid-template-rows: repeat(5, 5rem);
@@ -201,7 +200,6 @@
 
 .right-shape-section {
   display: grid;
-  padding: 5%;
   padding-right: 0%;
   grid-template-columns: repeat(3, 5rem);
   grid-template-rows: repeat(5, 5rem);
@@ -216,18 +214,30 @@
 
 .projects figure img {
   width: auto;
-  height: 250px;
+  height: 300px;
 }
 
 .project {
   text-align: center;
-  padding: 5%;
+  align-items: center;
   flex: 1;
+  padding: 2.5%;
+}
+
+.project p {
+  width: 100%;
+  font-size: 1em;
+  text-wrap: wrap;
+  color: #ffffff;
+  font-style: italic;
+  font-weight: lighter;
 }
 
 figcaption {
   color: #ffffff;
-  margin-top: 5px;
+  font-size: 20px;
+  font-weight: bolder;
+  padding-top: 2.5%;
 }
 
 .skills-and-autobiography-section {
@@ -244,7 +254,7 @@ figcaption {
 .skills-label {
   padding: 2.5%;
   padding-left: 0%;
-  font-size: 1em;
+  font-size: 1.5em;
 }
 
 .autobiography-label {
@@ -256,7 +266,7 @@ figcaption {
 .skills {
   margin: 5%;
   color: #ffffff;
-  font-size: 1.5em;
+  font-size: 1.0em;
   text-align: left;
   flex: 1;
 }
@@ -264,7 +274,7 @@ figcaption {
 .autobiography {
   margin: 5%;
   color: #ffffff;
-  font-size: 1em;
+  font-size: 1.0em;
   text-align: justify;
   flex: 1;
 }
