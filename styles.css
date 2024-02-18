@@ -1,7 +1,39 @@
-body {
-  margin: 0;  
+* {
+  /* outline: 1px solid red; */
+  font-family: Verdana, sans-serif;
 }
 
-.red-outline {
-  outline: 2px solid red;
+body {
+  margin: 0;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.site-header {
+  background-color: #171717;
+  text-align: center;
+  padding-top: 20px;
+  border-bottom: 20px solid #937E56;
+}
+
+.header-logo {
+  height: 5.5em;
+  width: 5.5em;
+}
+
+.site-nav-bar {
+  display: flex;
+  flex-direction: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1.5em;
+}
+
+.option {
+  color: #ffffff;
+  font-size: 1.4em;
+  font-weight: bold;
+  text-align: center;
 }
