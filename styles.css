@@ -1,14 +1,9 @@
 * {
-  /* outline: 1px solid red; */
+  outline: 1px solid red;
   font-family: Verdana, sans-serif;
-}
-
-body {
   margin: 0;
-}
-
-.flex-container {
-  display: flex;
+  border: 0;
+  padding: 0;
 }
 
 .site-header {
@@ -19,21 +14,150 @@ body {
 }
 
 .header-logo {
-  height: 5.5em;
-  width: 5.5em;
+  height: 50px;
+  width: 50px;
 }
 
 .site-nav-bar {
   display: flex;
-  flex-direction: nowrap;
   justify-content: space-around;
   align-items: center;
-  padding: 1.5em;
+  padding: 2%;
 }
 
 .option {
   color: #ffffff;
-  font-size: 1.4em;
+  font-size: 1.0em;
   font-weight: bold;
   text-align: center;
+}
+
+.site-main {
+  background-color: #E5E9FF;
+}
+
+.shapes-container {
+  display: flex;
+}
+
+.featured-photo-section {
+  display: flex;
+  white-space: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.featured-photo-container {
+  padding: 5%;
+}
+
+.image-container {
+  display: flex;
+}
+
+.featured-photo {
+  width: 75%;
+  height: 50%;
+  max-width: 550px;
+  display: block;
+  object-fit: cover;
+}
+.other-photos img {
+  height: 50%;
+  width: 100%;
+  max-width: 275px;
+  display: block;
+  object-fit: cover;
+}
+.shapes-container {
+  display: grid;
+  padding: 5%;
+  grid-template-columns: repeat(4, 5rem);
+  grid-template-rows: repeat(5, 5rem);
+  grid-gap: 0;
+  grid-row-gap: 0;
+  overflow: hidden;
+}
+
+.shapes-container img {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+.quarter-circle {
+  width: 5rem;
+  height: 5rem;
+}
+
+.blue {
+  background-color: #1A235D;
+}
+
+.top-left-quarter-circle {
+  border-top-left-radius: 100%;
+}
+
+.bottom-left-quarter-circle {
+  border-bottom-left-radius: 100%;
+}
+
+.top-right-quarter-circle {
+  border-top-right-radius: 100%;
+}
+
+.bottom-right-quarter-circle {
+  border-bottom-right-radius: 100%;
+}
+
+.blue-right-triangle {
+  width: 0;
+  height: 0;
+  border-top: 5rem solid transparent;
+  border-right: 5rem solid #798CF6;
+}
+
+.brown-right-triangle {
+  width: 0;
+  height: 0;
+  border-top: 5rem solid transparent;
+  border-right: 5rem solid #937E56;
+}
+
+.turned-dark-brown-right-triangle {
+  width: 0;
+  height: 0;
+  border-bottom: 5rem solid transparent;
+  border-right: 5rem solid #171717;
+}
+
+.flipped-brown-right-triangle {
+  width: 0;
+  height: 0;
+  border-top: 5rem solid transparent;
+  border-left: 5rem solid #937E56;
+}
+
+.flipped-turned-dark-brown-right-triangle {
+  width: 0;
+  height: 0;
+  border-bottom: 5rem solid transparent;
+  border-left: 5rem solid #171717;
+}
+
+.light-blue {
+  background-color: #798CF6;
+}
+
+.blue {
+  background-color: #1A235D;
+}
+
+.dark-brown {
+  background-color: #171717;
+}
+
+.box {
+  width: 5rem;
+  height: 5rem;
 }
