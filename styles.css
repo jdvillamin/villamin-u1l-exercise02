@@ -1,5 +1,5 @@
 * {
-  /* outline: 1px solid red; */
+  /* outline: 1px solid red;  */
   font-family: Verdana, sans-serif;
   margin: 0;
   border: 0;
@@ -30,6 +30,7 @@
   font-size: 1.0em;
   font-weight: bold;
   text-align: center;
+  flex: 1;
 }
 
 .site-main {
@@ -221,9 +222,109 @@
 .project {
   text-align: center;
   padding: 5%;
+  flex: 1;
 }
 
 figcaption {
   color: #ffffff;
   margin-top: 5px;
+}
+
+.skills-and-autobiography-section {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.skills-and-autobiography {
+  display: flex;
+  justify-content: space-around;
+  align-items: top;
+}
+
+.skills-label {
+  padding: 2.5%;
+  padding-left: 0%;
+  font-size: 1em;
+}
+
+.autobiography-label {
+  padding: 2.5%;
+  padding-left: 0%;
+  font-size: 1.5em;
+}
+
+.skills {
+  margin: 5%;
+  color: #ffffff;
+  font-size: 1.5em;
+  text-align: left;
+  flex: 1;
+}
+
+.autobiography {
+  margin: 5%;
+  color: #ffffff;
+  font-size: 1em;
+  text-align: justify;
+  flex: 1;
+}
+
+.lines-1 {
+  display: flex;
+  height: 10px;
+}
+
+.lines-1 div {
+  background-color: #FFFFFF;
+  height: 10px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.line-1 {
+  width: 40%;
+  margin-left: 0%;
+}
+
+.line-2 {
+  width: 20%;
+}
+
+.line-3 {
+  width: 30%;
+}
+
+.line-4 {
+  width: 5%;
+  margin-right: 0%;
+}
+
+.lines-2 {
+  display: flex;
+  height: 10px;
+}
+
+.lines-2 div {
+  background-color: #FFFFFF;
+  height: 10px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.line-1-2 {
+  width: 20%;
+  margin-left: 0%;
+}
+
+.line-2-2 {
+  width: 40%;
+}
+
+.line-3-2 {
+  width: 10%;
+}
+
+.line-4-2 {
+  width: 20%;
+  margin-right: 0%;
 }
