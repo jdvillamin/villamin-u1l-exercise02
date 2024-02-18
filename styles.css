@@ -1,6 +1,6 @@
 * {
   /* outline: 1px solid red;  */
-  font-family: Verdana, sans-serif;
+  font-family: "Fira Sans", "Gill Sans", "Lucida Grande", "Roboto", sans-serif;
   margin: 0;
   border: 0;
   padding: 0;
@@ -275,7 +275,7 @@ figcaption {
 }
 
 .lines-1 div {
-  background-color: #FFFFFF;
+  /* background-color: #937E56; */
   height: 10px;
   margin-left: 5%;
   margin-right: 5%;
@@ -305,7 +305,7 @@ figcaption {
 }
 
 .lines-2 div {
-  background-color: #FFFFFF;
+  background-color: #937E56;
   height: 10px;
   margin-left: 5%;
   margin-right: 5%;
@@ -327,4 +327,36 @@ figcaption {
 .line-4-2 {
   width: 20%;
   margin-right: 0%;
+}
+
+.site-footer {
+  display: flex;
+  border-top: 20px solid #937E56;
+  background-color: #171717;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.footer-logo {
+  width: 200px;
+  height: 200px;
+}
+
+.footer-contents {
+  color: #FFFFFF;
+}
+
+.footer-contents p {
+  margin: 10px;
+}
+
+.website-url {
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+a {
+  text-decoration: none;
+  margin: 10px;
 }

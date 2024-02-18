@@ -1,157 +1,198 @@
 <!DOCTYPE html>
 
 <html>
-  <head>
-    <title>Portfolio Website</title>
-    <link rel="stylesheet" type="text/css" href="styles.css" />
-  </head>
-  <body>
-    <header class="site-header">
-      <img class="header-logo" src="assets/images/logo-no-label.png" height="100px" width="100px"/>
-      <nav class="site-nav-bar">
-        <div class="option">Featured Photo</div>
-        <div class="option">About Me</div>
-        <div class="option">Previous Projects</div>
-        <div class="option">Skills</div>
-        <div class="option">Autobiography</div>
-      </nav>
-      <div class="horizontal-bar"></div>
-    </header>
-    <main class="site-main">
-      <section class="featured-photo-section">
-        <div class="featured-photo-container">
-          <div class="image-container">
-            <img class="featured-photo" src="assets/images/featured-photo.jpg"/>
-            <div class="other-photos">
-              <img class="other-photo-1" src="assets/images/ics-awards.jpg"/>
-              <img class="other-photo-2" src="assets/images/get-one-fourth.JPG"/>
-            </div>
+
+<head>
+  <title>Portfolio Website</title>
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+
+<body>
+  <header class="site-header">
+    <a href="#"><img class="header-logo" src="assets/images/logo-no-label.png" height="100px" width="100px" /></a>
+    <nav class="site-nav-bar">
+      <a href="#featured-photo-section" class="option">Featured Photo</a>
+      <a href="#previous-projects-section" class="option">Previous Projects</a>
+      <a href="#blue skills-and-autobiography-section" class="option">Skills</a>
+      <a href="#blue skills-and-autobiography-section" class="option">Autobiography</a>
+      <a href="#site-footer" class="option">Detailed Information</a>
+    </nav>
+    <div class="horizontal-bar"></div>
+  </header>
+  <main class="site-main">
+    <section class="featured-photo-section" id="featured-photo-section">
+      <div class="featured-photo-container">
+        <div class="image-container">
+          <img class="featured-photo" src="assets/images/featured-photo.jpg" />
+          <div class="other-photos">
+            <img class="other-photo-1" src="assets/images/ics-awards.jpg" />
+            <img class="other-photo-2" src="assets/images/get-one-fourth.JPG" />
           </div>
         </div>
-        <div class="shapes-container">
-          <div class="blue top-left-quarter-circle"></div>
-          <div class="blue top-right-quarter-circle"></div>
-          <div class="brown-right-triangle"></div>
-          <div class="blue-right-triangle"></div>
-          <div class="blue bottom-left-quarter-circle"></div>
-          <div class="blue bottom-right-quarter-circle"></div>
-          <div class="blue-right-triangle"></div>
-          <div class="brown-right-triangle"></div>
-          <div class="dark-brown box"></div>
-          <div class="light-blue box"></div>
-          <div class="dark-brown top-left-quarter-circle"></div>
-          <div class="dark-brown top-right-quarter-circle"></div>
-          <div class="light-blue box"></div>
-          <div class="light-blue box"></div>
-          <div class="blue box"></div>
-          <div class="brown-right-triangle"></div>
-          <div class="brown-right-triangle"></div>
-          <div class="flipped-brown-right-triangle"></div>
-          <div class="turned-dark-brown-right-triangle"></div>
-          <div class="flipped-turned-dark-brown-right-triangle dark-bro"></div>
-        </div>
-      </section>
-      <section class="previous-projects-section">
-        <div class="previous-projects-container">
-          <div class="left-shape-section">
-            <div class="brown box"></div>
-            <div class="dark-brown box"></div>
-            <div class="dark-brown box"></div>
-            <div class="brown box"></div>
-          </div>
-          <div class="content-project-section">
-            <h1 class="previous-projects-label">Previous Projects</h1>
-            <div class="projects">
-              <figure class="project">
-                  <img src="assets/images/cmsc-12-farm-to-market.JPG" alt="Project 1">
-                  <figcaption>(CMSC 12) Farm To Market</figcaption>
-              </figure>
-              <figure class="project">
-                  <img src="assets/images/cmsc-22-spooky-elbi.JPG" alt="Project 2">
-                  <figcaption>(CMSC 22) Spooky Elbi</figcaption>
-              </figure>
-              <figure class="project">
-                  <img src="assets/images/cmsc-150-qpds.JPG" alt="Project 3">
-                  <figcaption>(CMSC 150) Solvers App</figcaption>
-              </figure>
-              <figure class="project">
-                  <img src="assets/images/shortest-path-solver.JPG" alt="Project 4">
-                  <figcaption>(Personal) BFS Visualizer</figcaption>
-              </figure>
-            </div>
-          </div>
-          <div class="right-shape-section">
-            <div class="dark-brown box"></div>
-            <div class="dark-brown box"></div>
-            <div class="dark-brown box"></div>
-            <div class="dark-brown box"></div>
-            <div class="dark-brown box"></div>
-            <div class="dark-brown box"></div>
-            <div class="dark-brown box"></div>
-            <div class="dark-brown box"></div>
-            <div class="dark-brown box"></div>
-            <div class="dark-brown box"></div>
-            <div class="brown box"></div>
-            <div class="dark-brown box"></div>
-            <div class="brown box"></div>
-            <div class="dark-brown box"></div>
-            <div class="brown box"></div>
-          </div>
-        </div>
-      </section>
-      <section class="blue skills-and-autobiography-section">
-        <div class="lines-1">
-          <div class="line-1"></div>
-          <div class="line-2"></div>
-          <div class="line-3"></div>
-          <div class="line-4"></div>
-        </div>
-        <div class="skills-and-autobiography">
-          <div class="skills">
-            <h2 class="skills-label">Skills</h2>
-            <div class="skills-content-container">
-              <p><b>Programming Languages:</b> Python, C/C++, Java, R, JavaScript, TypeScript, Dart</p>
-              <br>
-              <p><b>Markup and Styles:</b> HTML, CSS, LaTeX, Markdown</p>
-              <br>
-              <p><b>Technical Skills:</b> React.JS, Node.JS, Express.JS, MongoDB, Git, GitHub</p>
-              <br>
-              <p><b>Mathematics and Computer Science:</b> Algebra, Geometry, Number Theory, Combinatorics, Calculus, Linear Algebra, Data Structures and Algorithms</p>
-            </div>
-          </div>
-          <div class="autobiography">
-            <h2 class="autobiography-label">Autobiography</h2>
-            <div class="autobiography-content-container">
-              <p>
-                Hello there! My name is Jan Neal Isaac D. Villamin, or you can just call me Isaac. I was born in Manila on January 16, 2003. I was raised in the City of Santa Rosa, Laguna for the majority of my life. I spent 19 years there until I had to leave for Los Baños in Scholars Dormitory  to attend the University of the Philippines Los Baños, as a computer science student. 
-              </p>
-              <br>
-              <p>
-                My life mainly centered on my passion for mathematics. I started out in Grade 2 when I luckily qualified for a math program. I loved problem-solving from the get-go. I had many hobbies throughout my lifetime, such as singing, gaming, playing the guitar, and drumming, but none of them took more of my time than when I engage in mathematics. I’ve trained under different schools and programs like MTG and MOSC and competed in different countries. I was able to achieve my high-school goal of qualifying for the Philippine Mathematical Olympiad in Grade 12.
-              </p>
-              <br>
-              <p>
-                Until all of these turned-down when I discovered the field of computer science. One of my friends invited me to join the National Olympiad in Informatics Philippines and fell in love with algorithms as soon as I solved my first ever problem. Since then, I switched my favorite hobby from stressful mathematics to stressful competitive programming. Currently, I am trying to develop my web development skills by participating in organization-related work.        
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="lines-2">
-          <div class="line-1-2"></div>
-          <div class="line-2-2"></div>
-          <div class="line-3-2"></div>
-          <div class="line-4-2"></div>
-        </div>
-      </section>
-    </main> 
-    <footer class="site-footer">
-      <img class="footer-logo" src="assets/images/logo-with-label.png" height="200px" width="200px"/>
-      <div class="footer-contents">
-        <p>Footer Contents</p>
-        <p>Villa Caceres, Brgy. Dila, City of Santa Rosa, Laguna, 4026, Philippines</p>
-        <p>&copy; 2024 Jan Neal. All rights reserved.</p>
-        <a href="#">Back to Top</a>
       </div>
-    </footer>
-  </body>
+      <div class="shapes-container">
+        <div class="blue top-left-quarter-circle"></div>
+        <div class="blue top-right-quarter-circle"></div>
+        <div class="brown-right-triangle"></div>
+        <div class="blue-right-triangle"></div>
+        <div class="blue bottom-left-quarter-circle"></div>
+        <div class="blue bottom-right-quarter-circle"></div>
+        <div class="blue-right-triangle"></div>
+        <div class="brown-right-triangle"></div>
+        <div class="dark-brown box"></div>
+        <div class="light-blue box"></div>
+        <div class="dark-brown top-left-quarter-circle"></div>
+        <div class="dark-brown top-right-quarter-circle"></div>
+        <div class="light-blue box"></div>
+        <div class="light-blue box"></div>
+        <div class="blue box"></div>
+        <div class="brown-right-triangle"></div>
+        <div class="brown-right-triangle"></div>
+        <div class="flipped-brown-right-triangle"></div>
+        <div class="turned-dark-brown-right-triangle"></div>
+        <div class="flipped-turned-dark-brown-right-triangle dark-bro"></div>
+      </div>
+    </section>
+    <section class="previous-projects-section" id="previous-projects-section">
+      <div class="previous-projects-container">
+        <div class="left-shape-section">
+          <div class="brown box"></div>
+          <div class="dark-brown box"></div>
+          <div class="dark-brown box"></div>
+          <div class="brown box"></div>
+        </div>
+        <div class="content-project-section">
+          <h1 class="previous-projects-label">Previous Projects</h1>
+          <div class="projects">
+            <figure class="project">
+              <img src="assets/images/cmsc-12-farm-to-market.JPG" alt="Project 1" />
+              <figcaption>(CMSC 12) Farm To Market</figcaption>
+            </figure>
+            <figure class="project">
+              <img src="assets/images/cmsc-22-spooky-elbi.JPG" alt="Project 2" />
+              <figcaption>(CMSC 22) Spooky Elbi</figcaption>
+            </figure>
+            <figure class="project">
+              <img src="assets/images/cmsc-150-qpds.JPG" alt="Project 3" />
+              <figcaption>(CMSC 150) Solvers App</figcaption>
+            </figure>
+            <figure class="project">
+              <img src="assets/images/shortest-path-solver.JPG" alt="Project 4" />
+              <figcaption>(Personal) BFS Visualizer</figcaption>
+            </figure>
+          </div>
+        </div>
+        <div class="right-shape-section">
+          <div class="dark-brown box"></div>
+          <div class="dark-brown box"></div>
+          <div class="dark-brown box"></div>
+          <div class="dark-brown box"></div>
+          <div class="dark-brown box"></div>
+          <div class="dark-brown box"></div>
+          <div class="dark-brown box"></div>
+          <div class="dark-brown box"></div>
+          <div class="dark-brown box"></div>
+          <div class="dark-brown box"></div>
+          <div class="brown box"></div>
+          <div class="dark-brown box"></div>
+          <div class="brown box"></div>
+          <div class="dark-brown box"></div>
+          <div class="brown box"></div>
+        </div>
+      </div>
+    </section>
+    <section class="blue skills-and-autobiography-section" id="blue skills-and-autobiography-section">
+      <div class="lines-1">
+        <div class="light-blue line-3"></div>
+        <div class="dark-brown line-1"></div>
+        <div class="light-blue line-4"></div>
+        <div class="brown line-2"></div>
+      </div>
+      <div class="skills-and-autobiography">
+        <div class="skills">
+          <h2 class="skills-label">Skills</h2>
+          <div class="skills-content-container">
+            <p>
+              <b>Programming Languages:</b> Python, C/C++, Java, R,
+              JavaScript, TypeScript, Dart
+            </p>
+            <br />
+            <p><b>Markup and Styles:</b> HTML, CSS, LaTeX, Markdown</p>
+            <br />
+            <p>
+              <b>Technical Skills:</b> React.JS, Node.JS, Express.JS, MongoDB,
+              Git, GitHub
+            </p>
+            <br />
+            <p>
+              <b>Mathematics and Computer Science:</b> Algebra, Geometry,
+              Number Theory, Combinatorics, Calculus, Linear Algebra, Data
+              Structures and Algorithms
+            </p>
+          </div>
+        </div>
+        <div class="autobiography">
+          <h2 class="autobiography-label">Autobiography</h2>
+          <div class="autobiography-content-container">
+            <p>
+              Hello there! My name is Jan Neal Isaac D. Villamin, or you can
+              just call me Isaac. I was born in Manila on January 16, 2003. I
+              was raised in the City of Santa Rosa, Laguna for the majority of
+              my life. I spent 19 years there until I had to leave for Los
+              Baños in Scholars Dormitory to attend the University of the
+              Philippines Los Baños, as a computer science student.
+            </p>
+            <br />
+            <p>
+              My life mainly centered on my passion for mathematics. I started
+              out in Grade 2 when I luckily qualified for a math program. I
+              loved problem-solving from the get-go. I had many hobbies
+              throughout my lifetime, such as singing, gaming, playing the
+              guitar, and drumming, but none of them took more of my time than
+              when I engage in mathematics. I’ve trained under different
+              schools and programs like MTG and MOSC and competed in different
+              countries. I was able to achieve my high-school goal of
+              qualifying for the Philippine Mathematical Olympiad in Grade 12.
+            </p>
+            <br />
+            <p>
+              Until all of these turned-down when I discovered the field of
+              computer science. One of my friends invited me to join the
+              National Olympiad in Informatics Philippines and fell in love
+              with algorithms as soon as I solved my first ever problem. Since
+              then, I switched my favorite hobby from stressful mathematics to
+              stressful competitive programming. Currently, I am trying to
+              develop my web development skills by participating in
+              organization-related work.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="lines-1">
+        <div class="dark-brown line-1"></div>
+        <div class="brown line-2"></div>
+        <div class="light-blue line-4"></div>
+        <div class="brown line-3"></div>
+        <div class="dark-brown line-1"></div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer" id="site-footer">
+    <a href="#"><img class="footer-logo" src="assets/images/logo-with-label.png" /></a>
+    <div class="footer-contents">
+      <p class="website-url">jnidv.com</p>
+      <p>
+        <b>Home Address:</b> Block 13, Lot 4, 24th Street, Phase 1, Villa
+        Caceres, Brgy. Dila, City of Santa Rosa, Laguna, 4026, Philippines
+      </p>
+      <p>
+        <b>College Address:</b> Unit 3C, 566R+278, Getulio B. Viado, Los
+        Baños, Laguna
+      </p>
+      <p>&copy; 2024 Jan Neal. All rights reserved.</p>
+      <a href="#">Back to Top</a>
+    </div>
+  </footer>
+</body>
+
 </html>
