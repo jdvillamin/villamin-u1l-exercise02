@@ -39,7 +39,7 @@ Here are some of my key takeaways:
 1. It is better to create a design first using Canva, Slides, or similar so that you can just focus on implementation while coding rather than thinking about the design as well.
 2. Make sure to wrap your HTML tags with necessary divs to adjust alignment and styling for CSS, even if at first it seems not necessary for just the HTML layout.
 3. Always commit significant progress for multiple reasons:
-  - If you want to go back at some point.
-  - It serves as a checkpoint for your progress so that it doesn't make you lost and feel burnout.
+  1. If you want to go back at some point.
+  2. It serves as a checkpoint for your progress so that it doesn't make you lost and feel burnout.
 4. Create branches for testing layouts and designs.
-5. Using HTML and CSS to implement your website from scratch takes a lot of work. In short, it it **tedious**. The focus seemed to be on very minimal details rather than the features of the webpage. Hence, we might need faster ways such as using React.JS.
+5. Using HTML and CSS to implement your website from scratch takes a lot of work. In short, it it **tedious**. The focus seemed to be on very minimal details rather than the features of the webpage. Hence, we might need faster ways such as using libraries, frameworks, etc., like React.JS and Bootstrap.
